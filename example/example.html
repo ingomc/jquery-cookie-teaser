@@ -5,12 +5,12 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="css/jquery-cookie-teaser.css">
+		<link rel="stylesheet" href="css/jquery.cookieteaser.css">
 		<style type="text/css"></style>
 	</head>
 	<body>
-		<p>Let the game begin!</p>
-		<div class="cookie1 cookie-teaser">
+		<p>You have to have a Server running, cookies are saved related to their URL!</p>
+		<div class="cookie1 cookie-teaser" data-cookie-id="testcookieID">
 		    <div>
 		        Hello, im a Cookie-Controlled Teaser, the X-Button is generated through JS. 
 		        It's completely configurable.
@@ -18,7 +18,7 @@
 		</div>
 	</body>
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script src="js/jquery-cookie-teaser.js"></script>
+	<script src="js/jquery.cookieteaser.js"></script>
 	<script type="text/javascript">
 	    document.addEventListener("DOMContentLoaded", function() {
 	        $('.cookie1').cookieTeaser();
