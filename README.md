@@ -16,6 +16,9 @@ The easiest way to get up and running is to download the JS-file and the CSS-fil
 </div>
 
 ```
+`.cookie1` JS Selector, can be named anything, you have to refer to it in the JS
+`.cookie2` JS Selector, do not rename this class
+
 #### Step 2: JS
 Add this before the closing <body>-TAG
 ```sh
