@@ -1,0 +1,15 @@
+.cookie-teaser {
+    display:none;
+    position:relative;
+}
+.cookie-teaser > .close.close-ct {
+    position:absolute;
+    right:0;
+    top:0;
+    z-index:10;
+    padding:.25em .5em;
+    background: #fff;
+}
+.cookie-teaser.visible {
+    display:block;
+}
